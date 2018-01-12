@@ -19,6 +19,7 @@ to the list and give you the credit.
    `(n,)` are bad for vectorization and will give unexpected erros and nasty
    bugs.
    -Example (Suppose you're looking for a 1 x 3 row vector):
+	   
 	   ```python
 	   import numpy as np
 	   
