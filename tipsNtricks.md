@@ -2,7 +2,7 @@ Author: Dilan Fernando
 
 Email: dilan.fd@gmail.com
 
-# Coding tips and tricks in Machine Learning and Deep Learning.
+## Coding tips and tricks in Machine Learning and Deep Learning.
 
 ### This is a growing list...
     
@@ -22,9 +22,7 @@ to the list and give you the credit.
    -Example (Suppose you're looking for a 1 x 3 row vector):
 	   
 	   ```python
-	   import numpy as np
-	   
-	   a = np.array([1,2,3])
+       a = np.array([1,2,3])
 	   a.shape = (1, 3)
 	   ```
 	   
