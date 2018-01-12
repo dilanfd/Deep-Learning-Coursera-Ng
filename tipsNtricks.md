@@ -9,9 +9,9 @@ If you have any tips and tricks to share send me a pull request. I will add it
 to the list and give you the credit.
 	
 	
-1. Avoid for loop and vectorize your code as much as you can.
-   With a bit of Linear algebra most for loops in ML/DL can be vectorized.
-   -Example:
+1.	Avoid for loop and vectorize your code as much as you can.
+	With a bit of Linear algebra most for loops in ML/DL can be vectorized.
+	-Example:
 		... TODO: Write example
 		
 2. Avoid 1D `numpy.arrays`. If you are dealing with a row vector explicitely
@@ -39,12 +39,22 @@ to the list and give you the credit.
 3. Use python broadcasting to your advantage.
    - Example:
 	 ...
+
+4. Use boolean masking whenever possible.
+   - Example:
+	 suppose you have a `p = np.array([0.34, 0.56, 0.99])` and 
+	 you want to set `p = 1` when `value > 0.5` and `0` otherwise
+	 you can do:
+	 
+	 ```python
+	 p = (p > 0.5)
+	 ```
  
- 4. When using `numpy.sum` use the `axis=1` sums over the rows.
+5. When using `numpy.sum` use the `axis=1` sums over the rows.
 	`axis=0` sums over the columns. 
 	
-5. When using `numpy.sum` use the `keepdims=True` to keep the
+6. When using `numpy.sum` use the `keepdims=True` to keep the
    desired dimensions after the summation.
  
-6. use `numpy.multiply` for elementwise multiplication of matrices
+7. use `numpy.multiply` for elementwise multiplication of matrices
    or vectors.
