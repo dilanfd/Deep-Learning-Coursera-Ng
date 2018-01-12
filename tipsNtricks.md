@@ -1,12 +1,12 @@
-=#Author: Dilan Fernando
-=#Email: dilan.fd@gmail.com
+Author: Dilan Fernando
+Email: dilan.fd@gmail.com
 
 # Coding tips and tricks in Machine Learning and Deep Learning.
 
 ### This is a growing list...
-### Documenting mostly for myself for posterity. If you have any tricks of
-	of your own let me know. I will happye accept pull requests (non malicious)
-
+    
+If you have any tips and tricks to share send me a pull request. I will add it 
+to the list and give you the credit.
 	
 	
 1. Avoid for loop and vectorize your code as much as you can.
