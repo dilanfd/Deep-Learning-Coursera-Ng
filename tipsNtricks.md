@@ -57,3 +57,8 @@ to the list and give you the credit.
  
 7. Use `numpy.multiply` for elementwise multiplication of matrices
    or vectors.
+
+8. Use `numpy.squeeze()` to turn `[[15]]` into `15` after a vectorized
+   computation.
+   
+   
